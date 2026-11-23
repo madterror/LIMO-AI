@@ -2,6 +2,8 @@
 
 A data analyst AI agent. Plain HTML + CSS + React (JSX) + JavaScript. No build step.
 
+project link : https://limo-ai-agent.netlify.app
+
 ## Run it
 - Easiest: double-click `xino-ai-suite.html`.
 - Folder version: browsers will not let Babel read `App.jsx` from a double-clicked file, so serve the folder:
