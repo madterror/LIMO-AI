@@ -2,17 +2,6 @@
 
 A data analyst AI agent. Plain HTML + CSS + React (JSX) + JavaScript. No build step.
 
-```
-xino-ai-suite/
-  xino-ai-suite.html  the whole app in ONE file. Double-click to open.
-  index.html          opens agent/index.html
-  agent/
-    index.html        loads React, AlaSQL and Babel, then App.jsx
-    App.jsx           ONE combined file: plain JS logic first, then the React components (JSX)
-    style.css         styles
-  vendor/             react 18.3.1, react-dom 18.3.1, alasql 4.21.1, @babel/standalone (local copies)
-```
-
 ## Run it
 - Easiest: double-click `xino-ai-suite.html`.
 - Folder version: browsers will not let Babel read `App.jsx` from a double-clicked file, so serve the folder:
